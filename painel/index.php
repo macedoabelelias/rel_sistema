@@ -181,14 +181,14 @@ if($linhas > 0){
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a class="navbar-brand" href="index.php"><span class="fa fa-globe"></span> Sistema<span class="dashboard_text"><?php echo $nome_sistema ?></span></a></h1>
+						<h1><a class="navbar-brand" href="index.php"><span class="fa fa-desktop"></span> Sistema<span class="dashboard_text"><?php echo $nome_sistema ?></span></a></h1>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
 						<ul class="sidebar-menu">
 							<li class="header">MENU NAVEGAÇÃO</li>
 							<li class="treeview <?php echo @$home ?>">
 								<a href="index.php">
-									<i class="fa fa-dashboard"></i> <span>Home</span>
+									<i class="fa fa-home"></i> <span>Home</span>
 								</a>
 							</li>
 							<li class="treeview <?php echo @$menu_pessoas ?>">
@@ -199,35 +199,35 @@ if($linhas > 0){
 								</a>
 								<ul class="treeview-menu">
 
-									<li class="<?php echo @$clientes ?>"><a href="clientes"><i class="fa fa-angle-right"></i> Clientes</a></li>
+									<li class="<?php echo @$clientes ?>"><a href="clientes"><i class="fa fa-folder-open"></i> Clientes</a></li>
 
-									<li class="<?php echo @$usuarios ?>"><a href="usuarios"><i class="fa fa-angle-right"></i> Usuários</a></li>
+									<li class="<?php echo @$usuarios ?>"><a href="usuarios"><i class="fa fa-folder-open-o"></i> Usuários</a></li>
 
-									<li class="<?php echo @$funcionarios ?>"><a href="funcionarios"><i class="fa fa-angle-right"></i> Funcionários</a></li>
+									<li class="<?php echo @$funcionarios ?>"><a href="funcionarios"><i class="fa fa-folder-o"></i> Funcionários</a></li>
 
-									<li class="<?php echo @$fornecedores ?>"><a href="fornecedores"><i class="fa fa-angle-right"></i> Fornecedores</a></li>
+									<li class="<?php echo @$fornecedores ?>"><a href="fornecedores"><i class="fa fa-newspaper-o"></i> Fornecedores</a></li>
 									
 								</ul>
 							</li>
 
 							<li class="treeview <?php echo @$menu_cadastros ?>">
 								<a href="#">
-									<i class="fa fa-plus"></i>
+									<i class="fa fa-user-plus"></i>
 									<span>Cadastros</span>
 									<i class="fa fa-angle-left pull-right"></i>
 								</a>
 								<ul class="treeview-menu">
 
-									<li class="<?php echo @$formas_pgto ?>"><a href="formas_pgto"><i class="fa fa-angle-right"></i> Formas Pgto</a></li>
+									<li class="<?php echo @$formas_pgto ?>"><a href="formas_pgto"><i class="fa fa-credit-card"></i> Formas Pgto</a></li>
 
-									<li class="<?php echo @$frequencias ?>"><a href="frequencias"><i class="fa fa-angle-right"></i> Frequências</a></li>
+									<li class="<?php echo @$frequencias ?>"><a href="frequencias"><i class="fa fa-dashboard"></i> Frequências</a></li>
 
-									<li class="<?php echo @$cargos ?>"><a href="cargos"><i class="fa fa-angle-right"></i> Cargos</a></li>
+									<li class="<?php echo @$cargos ?>"><a href="cargos"><i class="fa fa-sitemap"></i> Cargos</a></li>
 
 
-									<li class="<?php echo @$grupo_acessos ?>"><a href="grupo_acessos"><i class="fa fa-angle-right"></i> Grupos</a></li>
+									<li class="<?php echo @$grupo_acessos ?>"><a href="grupo_acessos"><i class="fa fa-files-o"></i> Grupos</a></li>
 
-									<li class="<?php echo @$acessos ?>"><a href="acessos"><i class="fa fa-angle-right"></i> Acessos</a></li>
+									<li class="<?php echo @$acessos ?>"><a href="acessos"><i class="fa fa-clipboard"></i> Acessos</a></li>
 									
 								</ul>
 							</li>
@@ -235,24 +235,24 @@ if($linhas > 0){
 
 							<li class="treeview <?php echo @$menu_financeiro ?>">
 								<a href="#">
-									<i class="fa fa-dollar"></i>
+									<i class="fa fa-money"></i>
 									<span>Financeiro</span>
 									<i class="fa fa-angle-left pull-right"></i>
 								</a>
 								<ul class="treeview-menu">
-									<li class="<?php echo @$receber ?>"><a href="receber"><i class="fa fa-angle-right"></i> Receber</a></li>
+									<li class="<?php echo @$receber ?>"><a href="receber"><i class="fa fa-dollar"></i> Receitas</a></li>
 
-									<li class="<?php echo @$pagar ?>"><a href="pagar"><i class="fa fa-angle-right"></i> Despesas</a></li>
+									<li class="<?php echo @$pagar ?>"><a href="pagar"><i class="fa fa-credit-card"></i> Despesas</a></li>
 
-									<li class="<?php echo @$rel_financeiro ?>"><a href="" data-toggle="modal" data-target="#modalRelFin"><i class="fa fa-angle-right"></i> Relatório Financeiro</a></li>
-
-
-									<li class="<?php echo @$rel_sintetico_despesas ?>"><a href="" data-toggle="modal" data-target="#modalRelSinDesp"><i class="fa fa-angle-right"></i> Rel Sintético Despesas</a></li>
-
-										<li class="<?php echo @$rel_sintetico_receber ?>"><a href="" data-toggle="modal" data-target="#modalRelSinRec"><i class="fa fa-angle-right"></i> Rel Sintético Receber</a></li>
+									<li class="<?php echo @$rel_financeiro ?>"><a href="" data-toggle="modal" data-target="#modalRelFin"><i class="fa fa-file-pdf-o"></i> Relatório Financeiro</a></li>
 
 
-									<li class="<?php echo @$rel_balanco ?>"><a href="rel/balanco_anual_class.php" target="_blank"><i class="fa fa-angle-right"></i> Rel Balanço Anual</a></li>
+									<li class="<?php echo @$rel_sintetico_despesas ?>"><a href="" data-toggle="modal" data-target="#modalRelSinDesp"><i class="fa fa-file-pdf-o"></i> Rel Sintético Despesas</a></li>
+
+										<li class="<?php echo @$rel_sintetico_receber ?>"><a href="" data-toggle="modal" data-target="#modalRelSinRec"><i class="fa fa-file-pdf-o"></i> Rel Sintético Receber</a></li>
+
+
+									<li class="<?php echo @$rel_balanco ?>"><a href="rel/balanco_anual_class.php" target="_blank"><i class="fa fa-file-pdf-o"></i> Rel Balanço Anual</a></li>
 
 								
 									

@@ -35,7 +35,7 @@ if($linhas == 0){
 				<button>Login</button>
 			</form>	
 			<br>
-			<p class="recuperar"><a title="Clique para recupearar a senha" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Recuperar Senha</a></p>
+			<p class="recuperar"><a title="Clique para recupearar a senha" href="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color:#31334a">Recuperar Senha</a></p>
 
 		</div>
 	</div>
